@@ -37,3 +37,4 @@ D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\bin\System.W
 D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\bin\System.Web.Mvc.xml
 D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\obj\Release\DanielWebApp02.dll
 D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\obj\Release\DanielWebApp02.pdb
+D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\obj\Release\DanielWebApp02.csprojResolveAssemblyReference.cache

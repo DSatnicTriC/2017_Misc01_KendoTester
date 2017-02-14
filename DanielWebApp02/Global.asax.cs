@@ -18,14 +18,12 @@ namespace DanielWebApp02
             ScriptBundle debugBundle = new ScriptBundle("~/bundles/debugBundle");
             debugBundle.Include(
                 "~/Scripts/jquery-1.10.2.js",
-                "~/Scripts/bootstrap.js",
                 "~/Scripts/kendo.ui.core.js");
             bundles.Add(debugBundle);
 
             ScriptBundle releaseBundle = new ScriptBundle("~/bundles/releaseBundle");
             releaseBundle.Include(
                 "~/Scripts/jquery-1.10.2.min.js",
-                "~/Scripts/bootstrap.min.js",
                 "~/Scripts/kendo.ui.core.min.js");
             bundles.Add(releaseBundle);
         }
