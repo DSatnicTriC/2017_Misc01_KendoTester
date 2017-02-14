@@ -29,3 +29,6 @@ D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02.Tests\bin\De
 D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02.Tests\obj\Debug\DanielWebApp02.Tests.csprojResolveAssemblyReference.cache
 D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02.Tests\obj\Debug\DanielWebApp02.Tests.dll
 D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02.Tests\obj\Debug\DanielWebApp02.Tests.pdb
+D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02.Tests\bin\Debug\DanielWebApp02.Tests.dll.config
+D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02.Tests\bin\Debug\System.Web.Optimization.dll
+D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02.Tests\bin\Debug\System.Web.Optimization.xml

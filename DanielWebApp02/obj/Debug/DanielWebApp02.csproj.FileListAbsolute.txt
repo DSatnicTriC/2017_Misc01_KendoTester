@@ -31,3 +31,10 @@ D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\bin\System.W
 D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\obj\Debug\DanielWebApp02.csprojResolveAssemblyReference.cache
 D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\obj\Debug\DanielWebApp02.dll
 D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\obj\Debug\DanielWebApp02.pdb
+D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\bin\Antlr3.Runtime.dll
+D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\bin\Newtonsoft.Json.dll
+D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\bin\System.Web.Optimization.dll
+D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\bin\WebGrease.dll
+D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\bin\Antlr3.Runtime.pdb
+D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\bin\Newtonsoft.Json.xml
+D:\DANI documents\Tri-C\2017-1-IT2320\DanielWebApp02\DanielWebApp02\bin\System.Web.Optimization.xml
