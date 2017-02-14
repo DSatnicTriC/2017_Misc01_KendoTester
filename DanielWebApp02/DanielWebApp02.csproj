@@ -106,8 +106,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Css\fonts\DejaVu\LICENSE.txt" />
+    <Content Include="Css\fonts\glyphs\KendoUIGlyphs.svg" />
+    <Content Include="Css\fonts\glyphs\WebComponentsIcons.svg" />
+    <Content Include="Css\kendo.common.min.css" />
+    <Content Include="Css\kendo.default.min.css" />
     <Content Include="Css\Site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Css\fonts\DejaVu\DejaVuSans-Bold.ttf" />
+    <Content Include="Css\fonts\DejaVu\DejaVuSans-BoldOblique.ttf" />
+    <Content Include="Css\fonts\DejaVu\DejaVuSans-ExtraLight.ttf" />
+    <Content Include="Css\fonts\DejaVu\DejaVuSans-Oblique.ttf" />
+    <Content Include="Css\fonts\DejaVu\DejaVuSans.ttf" />
+    <Content Include="Css\fonts\DejaVu\DejaVuSansMono-Bold.ttf" />
+    <Content Include="Css\fonts\DejaVu\DejaVuSansMono-BoldOblique.ttf" />
+    <Content Include="Css\fonts\DejaVu\DejaVuSansMono-Oblique.ttf" />
+    <Content Include="Css\fonts\DejaVu\DejaVuSansMono.ttf" />
+    <Content Include="Css\fonts\DejaVu\DejaVuSerif-Bold.ttf" />
+    <Content Include="Css\fonts\DejaVu\DejaVuSerif-BoldItalic.ttf" />
+    <Content Include="Css\fonts\DejaVu\DejaVuSerif-Italic.ttf" />
+    <Content Include="Css\fonts\DejaVu\DejaVuSerif.ttf" />
+    <Content Include="Css\fonts\glyphs\KendoUIGlyphs.eot" />
+    <Content Include="Css\fonts\glyphs\KendoUIGlyphs.ttf" />
+    <Content Include="Css\fonts\glyphs\KendoUIGlyphs.woff" />
+    <Content Include="Css\fonts\glyphs\WebComponentsIcons.eot" />
+    <Content Include="Css\fonts\glyphs\WebComponentsIcons.ttf" />
+    <Content Include="Css\fonts\glyphs\WebComponentsIcons.woff" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\favicon.ico" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -115,6 +139,7 @@
     <Content Include="Scripts\kendo.ui.core.js" />
     <Content Include="Scripts\kendo.ui.core.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\userScript_Index.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

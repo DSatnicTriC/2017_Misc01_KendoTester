@@ -8,8 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Daniel's ASP.NET Application from blank MVC template</title>
     <link href="~/Css/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Css/kendo.common.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Css/kendo.default.min.css" rel="stylesheet" type="text/css" />
     <link rel="icon" href="@Url.Content("~/Images/favicon.ico")" />
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    @Scripts.Render(HtmlHelpers.UsingDebugConfiguration()
+        ? "~/bundles/debugBundle"
+        : "~/bundles/releaseBundle")
 </head>
 <body>
     <div>
@@ -19,9 +24,5 @@
             <p>&copy; @DateTime.Now.Year - Daniel's ASP.NET Application from blank MVC template</p>
         </footer>
     </div>
-
-    @Scripts.Render(HtmlHelpers.UsingDebugConfiguration()
-        ? "~/bundles/debugBundle"
-        : "~/bundles/releaseBundle")
 </body>
 </html>
