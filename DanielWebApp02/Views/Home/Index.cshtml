@@ -1,21 +1,42 @@
-﻿@using System.Web.Optimization;
-
-@{
+﻿@{
     ViewBag.Title = "Home Page";
-    var scriptPath = Url.Content("~/Scripts/userScript_Index.js");
+    var compareDateUrl = Url.Action("CompareDate", "Home");
 }
 
-<h1>
-    Hello from Daniel
-</h1>
+<h1>Hello from Daniel</h1>
 
 <h2>I would like to welcome you to my humble web page</h2>
 
-<p>Please select which day you believe today is</p>
+<p>Please select which day you believe is today</p>
 
 <input id="myDayPicker" value="02/12/2017" />
-<br />
-<br />
+<br /><br />
 <button id="submitButton" class="k-primary">Submit</button>
+<textarea id="resultArea"></textarea>
 
-@Scripts.Render(scriptPath)
+<script>
+    $(document).ready(function () {
+        $("#resultArea").hide();
+
+        $("#myDayPicker").kendoDatePicker();
+        $("#submitButton").kendoButton({
+            click: submitClick
+        });
+
+        var daypicker = $("#myDayPicker").data("kendoDatePicker");
+
+        function submitClick(e) {
+            postCompareDates(daypicker.value());
+        }
+
+        function postCompareDates(clientDate) {
+            $.ajax({
+                type: "POST",
+                url: "@compareDateUrl",
+                data: { ClientDate: clientDate.toUTCString() },
+                success: function (data) { $("#resultArea").val("The server says: " + data.Message).show() },
+                dataType: 'json'
+            });
+        }
+    });
+</script>
